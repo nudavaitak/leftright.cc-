@@ -220,8 +220,8 @@
     </div>
   </dialog>
 
-  <script src="products.js"></script>
   <script>
+    function startApp() {
     const CATS = [
       ['all', 'Все'], ['ms', 'Мужская обувь'], ['ws', 'Женская обувь'],
       ['mc', 'Мужская одежда'], ['wc', 'Женская одежда'], ['ac', 'Аксессуары'],
@@ -341,6 +341,12 @@
     const fromHash = location.hash.slice(1);
     if (CAT_NAME[fromHash]) state.cat = fromHash;
     render();
+    }
+    // Каталог запрашивается с меткой времени, чтобы правки цен появлялись сразу, а не из кэша
+    const loader = document.createElement('script');
+    loader.src = 'products.js?t=' + Math.floor(Date.now() / 60000);
+    loader.onload = startApp;
+    document.head.append(loader);
   </script>
 </body>
 </html>
