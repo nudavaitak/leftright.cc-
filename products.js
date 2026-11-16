@@ -7,7 +7,7 @@
 const IMG_BASE = 'https://obuvka.by/pics/items/';
 
 const RAW = `
-ms|Кроссовки Strobbs 3998-10|198|20261116121155572_kubz1fvews1rdj1mgm61hi4h3mefgsu1.jpg|20261116121156037_tb0k40qn8b76rc7nhjfoh4sewcwdfb1l.jpg|Городские мужские кроссовки для повседневной носки и прогулок.
+ms|Кроссовки Strobbs 3998-10|298|20261116121155572_kubz1fvews1rdj1mgm61hi4h3mefgsu1.jpg|20261116121156037_tb0k40qn8b76rc7nhjfoh4sewcwdfb1l.jpg|Городские мужские кроссовки для повседневной носки и прогулок.
 ms|Кроссовки Strobbs 3998-17|198|20261116121159287_kuva167obpnndyb31db9e42f42nbp8o3.jpg|20261116121159734_kcihzjl4oqtgm8o3h4y5msj6ukdyw4zn.jpg|Городские мужские кроссовки для повседневной носки и прогулок.
 ms|Кроссовки Strobbs 3983-3|225|20261116121103791_zei36p79497lxyrcacn4m12e6iodzlt2.jpg|20261116121102698_mv35fuu4l4wstj7fn3pewl4e2mb274jm.jpg|Высокие осенние мужские кроссовки для прохладной погоды.
 ms|Полуботинки Strobbs 3972-2|195|20261116121154184_r54aeczktmnnswygc7l2fbyc92h0m07k.jpg|20261116121153547_w0qal56wjnby0h9qm4u3ltcafes97fv9.jpg|Практичная модель в стиле аутдор для города и природы.
