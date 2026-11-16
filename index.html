@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>leftright.cc</title>
+  <style>
+    :root { color-scheme: light dark; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      display: grid;
+      place-items: center;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: #f6f5f1;
+      color: #16161a;
+    }
+    main { text-align: center; padding: 2rem; }
+    h1 { font-size: clamp(2.2rem, 9vw, 5rem); margin: 0; letter-spacing: -0.03em; }
+    h1 span { opacity: 0.4; }
+    p { margin: 1rem 0 0; opacity: 0.6; font-size: 1.05rem; }
+    @media (prefers-color-scheme: dark) {
+      body { background: #111114; color: #f1f0ea; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>left<span>/</span>right</h1>
+    <p>Coming soon.</p>
+  </main>
+</body>
+</html>
