@@ -128,10 +128,10 @@ ac|Рюкзак Strobbs X112-4|195|20251125161112569_0yp00gczeyy7x7hqhfftxwztqlb
 ac|Рюкзак Strobbs X112-3|195|20251125161133180_ko5svzk1yblb4s0dqwhhrh1u569d52of.jpg|20251125161136546_xet8usos35d6wg00r0hw48q9z6id09bn.jpg|Дорожный рюкзак для выходных, отпуска или командировки.
 ac|Сумка Strobbs X115-4|95|20251125161126396_djjr4uwlzhmq3n1qd38gr0dyr0pmcvmd.jpg|20251125161130926_ztc4eon4v0o9orerdcehizytgs7iv93f.jpg|Мужская сумка-слинг через плечо из полиэстера.
 ac|Сумка спортивная Strobbs X109-2|120|20251125161147553_twui9b1x4l6mqu3gpttr72m9r8isk7hh.jpg|20251125161151330_hl0lzms3c5gyv87v69vba0p7ybviarma.jpg|Вместительная спортивная сумка, трансформируется в рюкзак.
-wc|Пальто утеплённое женское Strobbs T3525|540|||Новинка коллекции Strobbs, сезон: зима.
-mc|Куртка мужская Strobbs E2695|803|||Новинка коллекции Strobbs, сезон: демисезон.
-ws|Кроссовки Strobbs WINTER MONO BASE SG W 8570-25|493|||Новинка коллекции Strobbs, сезон: зима.
-ws|Кроссовки Strobbs SNAP YOW SG W 8568-3|402|||Новинка коллекции Strobbs, сезон: зима.
+wc|Пальто утеплённое женское Strobbs T3525|540|images/strobbs-t3525.jpg||Новинка коллекции Strobbs, сезон: зима.
+mc|Куртка мужская Strobbs E2695|803|images/strobbs-e2695.jpg||Новинка коллекции Strobbs, сезон: демисезон.
+ws|Кроссовки Strobbs WINTER MONO BASE SG W 8570-25|493|images/strobbs-8570-25.jpg||Новинка коллекции Strobbs, сезон: зима.
+ws|Кроссовки Strobbs SNAP YOW SG W 8568-3|402|images/strobbs-8568-3.jpg||Новинка коллекции Strobbs, сезон: зима.
 ws|Кроссовки Strobbs SNAP YOW SG W 8568-12|402|||Новинка коллекции Strobbs, сезон: зима.
 ms|Кроссовки Strobbs WINTER MONO BASE SG M 9468-1|486|||Новинка коллекции Strobbs, сезон: зима.
 ms|Кроссовки Strobbs 9484-1|394|||Новинка коллекции Strobbs, сезон: зима.
