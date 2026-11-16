@@ -79,6 +79,7 @@
     .ph { position: relative; aspect-ratio: 1 / 1; background: #fff; }
     .ph img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; padding: 6px; }
     .ph img.alt { opacity: 0; transition: opacity .2s ease; background: #fff; }
+    .badge { position: absolute; top: 8px; left: 8px; z-index: 1; background: var(--accent); color: var(--accent-ink); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; padding: 3px 7px; border-radius: 6px; }
     .ph.noimg::after { content: "Фото скоро"; position: absolute; inset: 0; display: grid; place-items: center; color: var(--muted); font-size: 0.85rem; background: repeating-linear-gradient(135deg, #f1efe9 0 12px, #ebe8e0 12px 24px); }
     .info { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 4px; flex: 1; border-top: 1px solid var(--line); }
     .kind { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); }
@@ -223,12 +224,13 @@
   <script>
     function startApp() {
     const CATS = [
-      ['all', 'Все'], ['ms', 'Мужская обувь'], ['ws', 'Женская обувь'],
+      ['all', 'Все'], ['new', 'Новинки'], ['ms', 'Мужская обувь'], ['ws', 'Женская обувь'],
       ['mc', 'Мужская одежда'], ['wc', 'Женская одежда'], ['ac', 'Аксессуары'],
     ];
     const CAT_NAME = Object.fromEntries(CATS);
     const TG = 'https://t.me/obuvkaby';
     const state = { cat: 'all', type: '', q: '', sort: '' };
+    const inCat = (p, id) => id === 'all' || (id === 'new' ? p.isNew : p.cat === id);
 
     const $ = (id) => document.getElementById(id);
     const el = (tag, cls, text) => {
@@ -251,6 +253,7 @@
 
     function photo(p) {
       const ph = el('div', 'ph');
+      if (p.isNew) ph.append(el('span', 'badge', 'Новинка'));
       if (!p.imgs.length) { ph.classList.add('noimg'); return ph; }
       p.imgs.slice(0, 2).forEach((src, i) => {
         const im = el('img', i ? 'alt' : '');
@@ -264,7 +267,7 @@
     function renderTabs() {
       const box = $('tabs'); box.textContent = '';
       CATS.forEach(([id, label]) => {
-        const n = id === 'all' ? PRODUCTS.length : PRODUCTS.filter((p) => p.cat === id).length;
+        const n = PRODUCTS.filter((p) => inCat(p, id)).length;
         const b = el('button', 'tab', label);
         b.type = 'button';
         b.setAttribute('aria-pressed', String(state.cat === id));
@@ -289,7 +292,7 @@
 
     function render() {
       renderTabs();
-      const pool = PRODUCTS.filter((p) => state.cat === 'all' || p.cat === state.cat);
+      const pool = PRODUCTS.filter((p) => inCat(p, state.cat));
       renderChips(pool);
       const q = state.q.trim().toLowerCase();
       let list = pool.filter((p) => (!state.type || p.type === state.type) && (!q || p.name.toLowerCase().includes(q)));
