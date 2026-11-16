@@ -132,16 +132,16 @@ wc|Пальто утеплённое женское Strobbs T3525|540|images/str
 mc|Куртка мужская Strobbs E2695|803|images/strobbs-e2695.jpg||Новинка коллекции Strobbs, сезон: демисезон.
 ws|Кроссовки Strobbs WINTER MONO BASE SG W 8570-25|493|images/strobbs-8570-25.jpg||Новинка коллекции Strobbs, сезон: зима.
 ws|Кроссовки Strobbs SNAP YOW SG W 8568-3|402|images/strobbs-8568-3.jpg||Новинка коллекции Strobbs, сезон: зима.
-ws|Кроссовки Strobbs SNAP YOW SG W 8568-12|402|||Новинка коллекции Strobbs, сезон: зима.
-ms|Кроссовки Strobbs WINTER MONO BASE SG M 9468-1|486|||Новинка коллекции Strobbs, сезон: зима.
-ms|Кроссовки Strobbs 9484-1|394|||Новинка коллекции Strobbs, сезон: зима.
-ws|Кроссовки Strobbs 7836-3|285|||Новинка коллекции Strobbs, сезон: осень.
-ws|Кроссовки Strobbs 7836-16|285|||Новинка коллекции Strobbs, сезон: осень.
-ws|Кроссовки Strobbs 8553-3|424|||Новинка коллекции Strobbs, сезон: зима.
-ws|Кроссовки Strobbs WINTER MONO BASE SG W 8570-17|493|||Новинка коллекции Strobbs, сезон: зима.
-ws|Кроссовки Strobbs WALKERS HIGH W 7839-3|299|||Новинка коллекции Strobbs, сезон: демисезон.
-ws|Кроссовки Strobbs WALKERS HIGH W 7839-17|299|||Новинка коллекции Strobbs, сезон: демисезон.
-ws|Кроссовки Strobbs WALKERS HIGH W 7839-16|299|||Новинка коллекции Strobbs, сезон: демисезон.
+ws|Кроссовки Strobbs SNAP YOW SG W 8568-12|402|images/strobbs-8568-12.jpg||Новинка коллекции Strobbs, сезон: зима.
+ms|Кроссовки Strobbs WINTER MONO BASE SG M 9468-1|486|images/strobbs-9468-1.jpg||Новинка коллекции Strobbs, сезон: зима.
+ms|Кроссовки Strobbs 9484-1|394|images/strobbs-9484-1.jpg||Новинка коллекции Strobbs, сезон: зима.
+ws|Кроссовки Strobbs 7836-3|285|images/strobbs-7836-3.jpg||Новинка коллекции Strobbs, сезон: осень.
+ws|Кроссовки Strobbs 7836-16|285|images/strobbs-7836-16.jpg||Новинка коллекции Strobbs, сезон: осень.
+ws|Кроссовки Strobbs 8553-3|424|images/strobbs-8553-3.jpg||Новинка коллекции Strobbs, сезон: зима.
+ws|Кроссовки Strobbs WINTER MONO BASE SG W 8570-17|493|images/strobbs-8570-17.jpg||Новинка коллекции Strobbs, сезон: зима.
+ws|Кроссовки Strobbs WALKERS HIGH W 7839-3|299|images/strobbs-7839-3.jpg||Новинка коллекции Strobbs, сезон: демисезон.
+ws|Кроссовки Strobbs WALKERS HIGH W 7839-17|299|images/strobbs-7839-17.jpg||Новинка коллекции Strobbs, сезон: демисезон.
+ws|Кроссовки Strobbs WALKERS HIGH W 7839-16|299|images/strobbs-7839-16.jpg||Новинка коллекции Strobbs, сезон: демисезон.
 `;
 
 const TYPES = [
