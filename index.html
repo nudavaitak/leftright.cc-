@@ -41,6 +41,8 @@
     .top-links { display: flex; align-items: center; gap: 8px; }
     .top-links a { text-decoration: none; font-weight: 600; font-size: 0.92rem; padding: 8px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); white-space: nowrap; }
     .top-links a.tg { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+    .logo { flex: none; }
+    @media (max-width: 440px) { .logo { font-size: 0.86rem; } .logo span { padding: 5px 7px; } .top-links { gap: 6px; } .top-links a { padding: 7px 10px; font-size: 0.86rem; } }
     .top-links .phone-text { display: none; }
     @media (min-width: 640px) { .top-links .phone-text { display: inline; } .top-links .phone-short { display: none; } }
 
